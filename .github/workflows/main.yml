@@ -16,8 +16,8 @@ env:
   PROXY: ${{ secrets.PROXY }} # 可选，http代理
   # leancloud、mysql、sqlite、mongodb配置四选一即可
   # leancloud配置
-  APPID: ${{ secrets.APPID }}
-  APPKEY: ${{ secrets.APPKEY }}
+  APPID: QZGdEojXHM94t3oki6iypLdW-MdYXbMMI
+  APPKEY: Q76RAB1kw49UwYYDUeAY0HwG
   # mysql配置
   MYSQL_USERNAME: ${{ secrets.MYSQL_USERNAME }} # 登录用户名
   MYSQL_PASSWORD: ${{ secrets.MYSQL_PASSWORD }} # 登录密码
