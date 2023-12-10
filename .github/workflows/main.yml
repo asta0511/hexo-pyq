@@ -25,9 +25,9 @@ env:
   MYSQL_PORT: ${{ secrets.MYSQL_PORT }} # 数据库端口号
   MYSQL_DB: ${{ secrets.MYSQL_DB }} # 要连接到的库的名称
   # sqlite配置，用于将db文件上传到github仓库
-  GITHUB_NAME: ${{ secrets.GH_NAME }} # 你的github昵称
-  GITHUB_EMAIL: ${{ secrets.GH_EMAIL }} # 你的github邮箱
-  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # github token
+  GITHUB_NAME: asta0511 # 你的github昵称
+  GITHUB_EMAIL: asta040511@outlook.com # 你的github邮箱
+  GITHUB_TOKEN: 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 # github token
   # mongodb配置
   MONGODB_URI: ${{ secrets.MONGODB_URI }}  # mongodb URI 支持'mongodb://'和'mongodb+srv://'
   TZ: Asia/Shanghai
